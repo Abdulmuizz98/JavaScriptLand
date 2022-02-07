@@ -1,0 +1,196 @@
+/* Cleaning and General */
+body, div{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family:  'Calibri light', 'Trebuchet MS', sans-serif;
+}
+.greybgd{
+    background: rgba(200, 200, 200,0.3);
+}
+.darkgreybgd{
+    background: rgba(200, 200, 200,0.5);
+}
+.whitebgd{
+    background: white;
+}
+.rightalign{
+    text-align: right;
+}
+li a{
+    text-decoration: none;
+}
+#badge{
+    margin: 10px 15px;
+   
+}
+h1{
+    margin-top: -12px;
+    margin-bottom: -15px;
+    font-size: 33px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', sans-serif;
+    line-height: 45px;
+    text-shadow: 0px 0px 5px rgb(248, 247, 247);
+    color:rgb(27, 26, 26)
+}
+span.darkgreybgd, code.darkgreybgd{
+    border-radius: 2px;
+}
+code{
+    font-family: Consolas, monospace;
+    font-weight: lighter;
+    font-size: 14px;
+    padding: 2px;
+    /* margin: 0; */
+}
+span.darkgreybgd{
+    font-size: small;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.prerequisites li{
+    line-height: 25px;
+    font-size: 17px;
+}
+
+/* Layout of Main Content */
+.page{
+    width: 910px;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 7.5px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+.page::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+aside{
+    float: left;
+}
+section{
+    margin: 0 50px 0 150px;
+    padding: 0;
+ }
+
+
+/* Header and Embedded nav */
+li a.active{
+    border-bottom: 2px solid black;
+}
+
+.nav-underline ul li a:not(.other){
+    color: black;
+}
+
+.nav-underline ul li a:hover:not(#logo a) {
+    border-bottom: 2px solid black;
+}
+#nav-extra a:hover{
+    text-decoration: underline;
+}
+nav ul{
+    overflow: hidden;
+}
+
+li.outlineborder{
+    border-left: 5px solid rgba(200, 200, 200,0.3);
+    padding-left: 10px;
+}
+li a.other{
+    color:rgb(64, 130, 230); 
+}
+
+.nav-underline{
+    border-bottom: 1px solid lightgrey; 
+    padding-left: 50px;
+    height:36px;  
+}
+nav #first li#logo img {
+    padding-right: 23px;
+    border-right: 2px solid rgb(63, 62, 62);
+
+}
+#nav-extra{
+    padding-left: 50px;  
+}
+.nav{
+    padding-left: 0;
+    list-style: none outside;
+}
+nav #first li{
+    float: left;
+    text-align: center;
+    margin: -6px 10px 10px 10px;
+    line-height: 36px;
+}
+
+input.other{
+    margin-top: 0px;
+    margin-left: 380px;
+    padding: 5px 30px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 0px 0px 1px rgb(200, 200, 200) inset;
+    border-radius: 2px;
+}
+input.other:hover{
+    border-color: blue;
+}
+nav #second li{
+    float: left;
+    text-align: center;
+    margin: -10px 10px 10px 10px;
+    line-height: 40px;
+}
+p.other{
+    margin: -60px 50px 10px 600px;
+    float: right;
+    font-size: small;
+    font-weight: bold;
+}   
+#meter{
+    margin-top: 10px;
+}
+#nav-extra>li{
+    float: left;
+    margin: -15px 0px 7px 10px;
+    list-style-type: none;
+}
+#nav-extra>li a{
+    color:rgb(64, 130, 230); 
+
+}
+
+#nav-extra::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+span.greycolor{
+    color: gray;
+}
+
+/* Footer */
+footer>ul>li{
+    float: left;
+    margin: 0px 10px 0px 10px;
+    line-height: 125px;
+    list-style-type: none;
+}
+footer{
+    height: 125px;
+    padding-left: 50px;
+}
+
+footer li>a{
+    color: black;
+}
+.division{
+    margin-left: 200px;
+}
